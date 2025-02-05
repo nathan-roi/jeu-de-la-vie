@@ -1,8 +1,9 @@
 # TP2 - Jeu de la vie
+Développé par : Nathan ROI  
 
-Développé par : Nathan ROI
-
----
+## Description
+Automate cellulaire 1D, jeu de la vie et simulation de propagation d'une épidémie. Le tout en Python et s'affiche dans ton terminal.  
+Ce projet a été réalisé dans le cadre d'un TP en 3ème année de licence informatique.  
 
 ## Prérequis
 
@@ -90,13 +91,3 @@ Si pas d’erreur curses est installé sinon :
     ```bash
     python3 ./epidemic_propagation.py
     ```
-    
-
-**Supposons que p1 soit à 0.5, à partir de quelle valeur de p2 l’ensemble des cellules va être contaminée ?**
-
-Quand p2 est égal à 0.90, on a des simulations où  l’ensemble des cellules va être contaminée.
-
-**Supposons maintenant que 30% de la population soit immunisée au début de la propagation, que
-vaut p2 ?**
-
-Pour une population qui est déjà immunisée à 30%, j’obitens : p2 = 0.75.
